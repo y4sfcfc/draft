@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.Design;
+using System.Data.SqlTypes;
 
 namespace qaralamatask2
 {
@@ -34,11 +35,11 @@ namespace qaralamatask2
             //    Console.Write(" ");
             //}
 
-            string maritalstatus, healthystatus; float grossincome, netincome, taxamount, familyallowance; int childallowance, childrencount, taxrate;
-            childrencount = 0; taxrate = 0; netincome = 0;childallowance = 0;familyallowance = 0;taxamount = 0;
+            string maritalstatus, healthystatus; float grosssalary, netsalary, taxamount, taxrate, familyallowance; ; int childallowance, childrencount; 
+            childrencount = 0; taxrate = 0; netsalary = 0; childallowance = 0; familyallowance = 0; taxamount = 0; 
 
             Console.Write("Umumi emek haqqinizi daxil edin: ");
-            grossincome = float.Parse(Console.ReadLine());
+            grosssalary = float.Parse(Console.ReadLine());
 
             Console.Write("Aile veziyyetinizi qeyd edin (evli;subay;dul): ");
             maritalstatus = Console.ReadLine();
@@ -49,7 +50,7 @@ namespace qaralamatask2
                 Console.Write("Ushaglarinizin sayini daxil edin: ");
                 childrencount = int.Parse(Console.ReadLine());
                 familyallowance = 50;
-                grossincome += familyallowance;
+                grosssalary += familyallowance;
             }
 
             else if (maritalstatus == "dul")
@@ -65,72 +66,78 @@ namespace qaralamatask2
             if (childrencount == 1)
             {
                 childallowance = 30;
-                grossincome += childallowance;
+                grosssalary += childallowance;
             }
-            else if(childrencount == 2) 
+            else if (childrencount == 2)
             {
                 childallowance = 55;
-                grossincome += childallowance;
+                grosssalary += childallowance;
             }
             else if (childrencount == 3)
             {
                 childallowance = 75;
-                grossincome += childallowance;
+                grosssalary += childallowance;
             }
             else if (childrencount > 3)
             {
-                childallowance = 75 + childallowance * 15;
-                grossincome += childallowance;
+                childallowance = 75 + (childrencount -3) * 15;
+                grosssalary += childallowance;
             }
 
-            
 
-            if (grossincome <= 1000)
+            if (grosssalary <= 1000)
             {
                 taxrate = 15;
-                if (healthystatus == "beli")
-                {  taxrate = 15/2;   }
             }
-
-            else if (grossincome > 1000)
+            else if (grosssalary <= 2000)
             {
                 taxrate = 20;
-                if (healthystatus == "beli")
-                { taxrate = 20/2; }
             }
-
-            else if (grossincome > 2000)
+            else if (grosssalary <= 3000)
             {
                 taxrate = 25;
-                if (healthystatus == "beli")
-                { taxrate = 25/2; }
             }
-            else if (grossincome > 3000)
+            else 
             {
-                taxrate = 30; 
-                if (healthystatus =="beli")
-                { taxrate = 30/2; } 
+                taxrate = 30;
             }
 
-            taxamount = grossincome * taxrate / 100;
-            netincome = grossincome - taxamount;
-
+           if (healthystatus == "beli")
+            {
+                taxrate /= 2;
+            }
             
+
+            taxamount = grosssalary * taxrate / 100;
+            netsalary = grosssalary - taxamount;
+            
+
+
 
             Console.WriteLine("*********************************");
-            Console.WriteLine("Aile muavineti:" + familyallowance);
-            Console.WriteLine("Ushag pulu:" + childallowance);
-            Console.WriteLine("Gelir vergisi derecesi:" + taxrate);
-            Console.WriteLine("Gelir vergisi meblegi:" + taxamount);
-            Console.WriteLine("Umumi emek haqqi: " + grossincome);
-            Console.WriteLine("Xalis emek haqqi: " + netincome);
-            
+                Console.WriteLine("Aile muavineti: " + familyallowance + " AZN");
+                Console.WriteLine("Ushag pulu: " + childallowance + " AZN");
+                Console.WriteLine("Gelir vergisi derecesi: " + taxrate + "%");
+                Console.WriteLine("Gelir vergisi meblegi: " + taxamount + " AZN");
+                Console.WriteLine("Umumi emek haqqi: " + grosssalary + " AZN"); 
+                Console.WriteLine("Xalis emek haqqi: " + (Math.Round(netsalary)) + "AZN");
+
+            int[] currency = { 1, 5, 10, 20, 50, 100, 200 };
+
+
+            for (int i = 0; i < currency.Length; i++)
+            {
+                if (netsalary == currency[i])
+                    int count = netsalary / currency[i];
+                netsalary %= currency[i];
+                Console.WriteLine(Console.WriteLine("Emek haqqinin odenilmesinde" + i + " AZN esginasdan" + count + " defe istifade edilmishdir");)
+            }
 
 
 
-        }
 
 
 
+    }
     }
 }

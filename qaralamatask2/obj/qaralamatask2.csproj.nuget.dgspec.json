@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asus\\Desktop\\PB501Yusif\\qaralamatask2\\qaralamatask2\\qaralamatask2.csproj": {}
+    "C:\\Users\\asus\\Desktop\\PB501Yusif\\draft\\qaralamatask2\\qaralamatask2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asus\\Desktop\\PB501Yusif\\qaralamatask2\\qaralamatask2\\qaralamatask2.csproj": {
+    "C:\\Users\\asus\\Desktop\\PB501Yusif\\draft\\qaralamatask2\\qaralamatask2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\Desktop\\PB501Yusif\\qaralamatask2\\qaralamatask2\\qaralamatask2.csproj",
+        "projectUniqueName": "C:\\Users\\asus\\Desktop\\PB501Yusif\\draft\\qaralamatask2\\qaralamatask2.csproj",
         "projectName": "qaralamatask2",
-        "projectPath": "C:\\Users\\asus\\Desktop\\PB501Yusif\\qaralamatask2\\qaralamatask2\\qaralamatask2.csproj",
+        "projectPath": "C:\\Users\\asus\\Desktop\\PB501Yusif\\draft\\qaralamatask2\\qaralamatask2.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus\\Desktop\\PB501Yusif\\qaralamatask2\\qaralamatask2\\obj\\",
+        "outputPath": "C:\\Users\\asus\\Desktop\\PB501Yusif\\draft\\qaralamatask2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

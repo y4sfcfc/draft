@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("qaralamatask2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8027b5c05bf67185444012e20ab6ef1aedc1273f")]
 [assembly: System.Reflection.AssemblyProductAttribute("qaralamatask2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("qaralamatask2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
