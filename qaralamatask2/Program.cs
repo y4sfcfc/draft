@@ -123,14 +123,13 @@ namespace qaralamatask2
                 Console.WriteLine("Xalis emek haqqi: " + (Math.Round(netsalary)) + "AZN");
 
             int[] currency = { 1, 5, 10, 20, 50, 100, 200 };
+            int[] counts = new int[currency.Length];
 
-
-            for (int i = 0; i < currency.Length; i++)
+            for (int i = currency.Length-1; i >=0; i--)
             {
-                if (netsalary == currency[i])
-                    int count = netsalary / currency[i];
-                netsalary %= currency[i];
-                Console.WriteLine(Console.WriteLine("Emek haqqinin odenilmesinde" + i + " AZN esginasdan" + count + " defe istifade edilmishdir");)
+                counts[i] = (int)MathF.Ceiling(netsalary) / currency[i];
+                netsalary = netsalary % currency[i];
+                Console.WriteLine("Emek haqqinin odenilmesinde " + currency[i] + " AZN esginasdan " + counts[i] + " defe istifade edilmishdir");
             }
 
 

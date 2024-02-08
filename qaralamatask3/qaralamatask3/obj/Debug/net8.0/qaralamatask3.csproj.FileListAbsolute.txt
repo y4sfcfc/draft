@@ -1,0 +1,15 @@
+C:\Users\asus\Desktop\PB501Yusif\draft\qaralamatask3\qaralamatask3\bin\Debug\net8.0\qaralamatask3.exe
+C:\Users\asus\Desktop\PB501Yusif\draft\qaralamatask3\qaralamatask3\bin\Debug\net8.0\qaralamatask3.deps.json
+C:\Users\asus\Desktop\PB501Yusif\draft\qaralamatask3\qaralamatask3\bin\Debug\net8.0\qaralamatask3.runtimeconfig.json
+C:\Users\asus\Desktop\PB501Yusif\draft\qaralamatask3\qaralamatask3\bin\Debug\net8.0\qaralamatask3.dll
+C:\Users\asus\Desktop\PB501Yusif\draft\qaralamatask3\qaralamatask3\bin\Debug\net8.0\qaralamatask3.pdb
+C:\Users\asus\Desktop\PB501Yusif\draft\qaralamatask3\qaralamatask3\obj\Debug\net8.0\qaralamatask3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\Desktop\PB501Yusif\draft\qaralamatask3\qaralamatask3\obj\Debug\net8.0\qaralamatask3.AssemblyInfoInputs.cache
+C:\Users\asus\Desktop\PB501Yusif\draft\qaralamatask3\qaralamatask3\obj\Debug\net8.0\qaralamatask3.AssemblyInfo.cs
+C:\Users\asus\Desktop\PB501Yusif\draft\qaralamatask3\qaralamatask3\obj\Debug\net8.0\qaralamatask3.csproj.CoreCompileInputs.cache
+C:\Users\asus\Desktop\PB501Yusif\draft\qaralamatask3\qaralamatask3\obj\Debug\net8.0\qaralamatask3.sourcelink.json
+C:\Users\asus\Desktop\PB501Yusif\draft\qaralamatask3\qaralamatask3\obj\Debug\net8.0\qaralamatask3.dll
+C:\Users\asus\Desktop\PB501Yusif\draft\qaralamatask3\qaralamatask3\obj\Debug\net8.0\refint\qaralamatask3.dll
+C:\Users\asus\Desktop\PB501Yusif\draft\qaralamatask3\qaralamatask3\obj\Debug\net8.0\qaralamatask3.pdb
+C:\Users\asus\Desktop\PB501Yusif\draft\qaralamatask3\qaralamatask3\obj\Debug\net8.0\qaralamatask3.genruntimeconfig.cache
+C:\Users\asus\Desktop\PB501Yusif\draft\qaralamatask3\qaralamatask3\obj\Debug\net8.0\ref\qaralamatask3.dll
