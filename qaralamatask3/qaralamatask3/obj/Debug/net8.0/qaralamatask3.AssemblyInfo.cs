@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("qaralamatask3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79cd7f4c381d27794e7d81c3ca705b5e1eba5708")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4534ecfc535319bb372a86b5cd62374dd87c7339")]
 [assembly: System.Reflection.AssemblyProductAttribute("qaralamatask3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("qaralamatask3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
